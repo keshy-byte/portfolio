@@ -1,0 +1,63 @@
+body{
+  background-image: linear-gradient(to right top, #718b94, #71959b, #74a0a0, #79aaa2, #82b3a1, #8dbba8, #98c3b0, #a3cbb8, #b2d5c9, #c3ded8, #d5e7e5, #e9f0f0);
+}
+h1{
+  text-align: center;
+}
+p{
+  padding: 20px;
+  margin: 20px;
+}
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar-nav .nav-link{
+  color: orange;
+}
+.nav-link {
+  display: block;
+  text-align: center;
+  padding: 14px 16px; 
+}
+.nav-link:hover {
+  background-color: white; 
+}
+.welcome-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: hsl(46, 100%, 50%); 
+  color: hsl(0, 0%, 13%); 
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  border-color:green;
+  cursor:grab;
+  margin-left: 1100px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; 
+}
+.welcome-button:hover {
+  background-color:red !important; 
+  transition: 0.9s;
+}
+#about{
+  padding: 20px;
+  margin: 20;
+}
+p1{
+  padding: 20px;
+  margin: 40px;
+}
+#Education{
+  padding: 20px;
+  margin: 20px;
+}
+#map {
+  height: 400px; /* Set height as needed */
+  width: 100%; /* Ensure full width */
+}
